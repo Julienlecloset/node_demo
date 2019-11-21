@@ -1,3 +1,8 @@
+TO DO BEFORE STARTING:
+npm install ==> to install the dependencies
+npm start ==> to start the project (it will refresh on changes)
+
+
 https://github.com/sequelize/cli
 
 create a migration file and a model:
