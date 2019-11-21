@@ -1,0 +1,11 @@
+1/ l'origine de node.js et la différence avec rails
+1 bis/ express.js
+1 ter/ sequelize
+2/ créer app.js et écouter le serveur
+3/ créer des migrations et des models et créer la db
+4/ créer des seeds
+5/ créer un fichier route pour le user (create user, get user, update user, delete user (and its posts))
+6/ créer un fichier route pour le post (create post, get post, get all posts of one user, update post, delete post)
+7/ créer une fonction middleware
+8/ envoyer une requête à une api (?)
+9/ créer un job

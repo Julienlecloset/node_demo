@@ -1,0 +1,17 @@
+https://github.com/sequelize/cli
+
+create a migration file and a model:
+npx sequelize-cli model:generate --name User --attributes firstName:string,lastName:string,email:string
+npx sequelize-cli model:generate --name Post --attributes title:string,content:string
+
+create associations between models:
+sequelize migration:generate --name add-associations
+
+create the db:
+npx sequelize-cli db:migrate // pour ajouter la table à la db (et créer la db si elle n'existe pas)
+
+create a seed file:
+npx sequelize-cli seed:generate --name demo-user
+
+commit seeds:
+npx sequelize-cli db:seed:all
